@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+	<a href="navigation.html">Back</a>
+
+	<h1>Tuiter</h1>
+	<h2>Profile</h2>
+
+	<img src="banner.jpg" height="200px" width="100%"/>
+	<img src="user.jpg" height="48px" width="48px"/>
+	<a href="edit-profile.html">Edit profile</a>
+	</br>
+	
+	<h2>WebDev</h2>
+	<p>@WebDev</p>
+
+	<p>Enjoys reading, playing video games, and taking naps.  Currently working on a Masters in computer science.</p>
+		
+	<p>Joined July 2020</p>
+	
+	<p><b>123</b> Following <b>456</b> Followers</p>
+
+	<ul>
+		<li><a href="tuits.html">Tuits</a></li>
+		<li><a href="tuits-and-replies.html">Tuits & Replies</a></li>
+		<li><a href="media.html">Media</a></li>
+		<li><a href="likes.html">Likes</a></li>
+	</ul>
+</body>
+</html>
