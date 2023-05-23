@@ -1,0 +1,134 @@
+.wd-float-done {
+    clear: both;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-title-section {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+}
+
+.wd-bookmarks-title {
+    font-size: 20px;
+    padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.wd-bookmark-section {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-poster-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    float: left;
+}
+
+.wd-poster-name {
+    font-size: 15px;
+    padding-left: 12px;
+    float: left;
+}
+
+.wd-poster-info {
+    color: darkgray;
+    font-size: 15px;
+    padding-left: 4px;
+    float: left;
+}
+
+.wd-post-text {
+    font-size: 15px;
+    max-width: 506px;
+    float: left;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+.wd-big-image {
+    height: 264px;
+    width: 504px;
+    float: left;
+    position: relative;
+    left: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-image-description {
+    width: 504px;
+    float: left;
+    position: relative;
+    left: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-image-description-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-image-description-text {
+    color: darkgray;
+    font-size: 15px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-button-area {
+    width: 504px;
+    float: left;
+    position: relative;
+    left: 12px;
+    padding-top: 12px;
+}
+
+.wd-button-link {
+    font-size: 12px;
+    float: left;
+    width: 25%;
+}
+
+.wd-button-icon-grey {
+    color: darkgray;
+    float: left;
+}
+
+.wd-button-icon-red {
+    color: red;
+    float: left;
+}
+
+.wd-button-text-grey {
+    color: darkgray;
+    float: left;
+    padding-left: 12px;
+}
+
+.wd-button-text-red {
+    color: red;
+    float: left;
+    padding-left: 12px;
+}

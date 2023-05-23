@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+
+    <link href="explore.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <div class="row ms-5 me-5 mt-2">
+        <div class="col-2 col-lg-1 col-xl-2">
+            <ul class="list-group col-12 mb-2">
+                <li class="list-group-item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-home my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Home</div>
+                </li>
+                <li class="list-group-item d-flex active">
+                    <i class="fa fa-hashtag my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Explore</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-bell my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Notifications</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-envelope my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Messages</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-bookmark my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Bookmarks</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-list my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Lists</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-user my-auto me-1"></i>
+                    <div class="d-none d-xl-block">Profile</div>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-ellipsis-h my-auto me-1"></i>
+                    <div class="d-none d-xl-block">More</div>
+                </li>
+            </ul>
+            <button class="btn col-12 btn-primary override-bs">
+                Tweet
+            </button>
+        </div>
+
+        <div class="col-10 col-lg-7 col-xl-6">
+            <div class="row mb-1">
+                <div class="col-11 d-flex search-text-field">
+                    <i class="fa fa-search my-auto me-1"></i>
+                    <input type="text" class="text-input-field my-auto" placeholder="Search Twitter">
+                </div>
+                <div class="col-1 d-flex justify-content-center">
+                    <i class="fa fa-cog fa-2x my-auto" style="color: blue"></i>
+                </div>
+            </div>
+            <ul class="nav nav-tabs mb-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="card">
+                <div class="card-caption">
+                    <p class="card-image-text">SpaceX's Starship</p>
+                    <img src="starship.jpg" class="card-img-top" alt="...">
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div>Web Development</div>
+                                <div class="d-flex">
+                                    <div class="bold-text">React JS</div>
+                                    <i class="fa fa-check-circle my-auto mx-1"></i>
+                                    <div>- 2h</div>
+                                </div>
+                                <div class="bold-text">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</div>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid mx-0 card-profile-icon" src="reactjsicon.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="d-flex">
+                                    <div class="bold-text">Javascript</div>
+                                    <i class="fa fa-check-circle my-auto mx-1"></i>
+                                    <div>- 2h</div>
+                                </div>
+                                <div class="bold-text">Javascript is programming language that can run on browsers as well as desktops</div>
+                                <div>123k Tweets</div>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid mx-0 card-profile-icon" src="nodejsicon.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div>Web Development</div>
+                                <div class="d-flex">
+                                    <div class="bold-text">JQuery</div>
+                                </div>
+                                <div>123k Tweets</div>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid mx-0 card-profile-icon" src="jqueryicon.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div>Web Development</div>
+                                <div class="d-flex">
+                                    <div class="bold-text">NodeJS</div>
+                                    <i class="fa fa-check-circle my-auto mx-1"></i>
+                                    <div>- 2h</div>
+                                </div>
+                                <div>123k Tweets</div>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid mx-0 card-profile-icon" src="jsicon.jpg">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="d-none d-lg-block col-4">
+            <ul class="list-group col-12">
+                <li class="list-group-item">
+                    <div class="bold-text">Who to Follow</div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex">
+                        <div class="my-auto me-2">
+                            <img class="user-icon" src="javaicon.jpg">
+                        </div>
+                        <div class="my-auto me-auto">
+                            <div class="user-name">
+                                Java <i class="fa fa-check-circle"></i>
+                            </div>
+                            <div class="user-handle">
+                                @Java
+                            </div>
+                        </div>
+                        <div class="my-auto ms-auto">
+                            <button class="btn col-12 btn-primary override-bs">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex">
+                        <div class="my-auto me-2">
+                            <img class="user-icon" src="relativityspaceicon.jpg">
+                        </div>
+                        <div class="my-auto me-auto">
+                            <div class="user-name">
+                                Relativity Space <i class="fa fa-check-circle"></i>
+                            </div>
+                            <div class="user-handle">
+                                @relativityspace
+                            </div>
+                        </div>
+                        <div class="my-auto ms-auto">
+                            <button class="btn col-12 btn-primary override-bs">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex">
+                        <div class="my-auto me-2">
+                            <img class="user-icon" src="virgingalacticicon.png">
+                        </div>
+                        <div class="my-auto me-auto">
+                            <div class="user-name">
+                                Virgin Galactic <i class="fa fa-check-circle"></i>
+                            </div>
+                            <div class="user-handle">
+                                @virgingalactic
+                            </div>
+                        </div>
+                        <div class="my-auto ms-auto">
+                            <button class="btn col-12 btn-primary override-bs">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex">
+                        <div class="my-auto me-2">
+                            <img class="user-icon" src="nasaicon.jpg">
+                        </div>
+                        <div class="my-auto me-auto">
+                            <div class="user-name">
+                                NASA <i class="fa fa-check-circle"></i>
+                            </div>
+                            <div class="user-handle">
+                                @NASA
+                            </div>
+                        </div>
+                        <div class="my-auto ms-auto">
+                            <button class="btn col-12 btn-primary override-bs">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex">
+                        <div class="my-auto me-2">
+                            <img class="user-icon" src="teslaicon.jpg">
+                        </div>
+                        <div class="my-auto me-auto">
+                            <div class="user-name">
+                                Tesla <i class="fa fa-check-circle"></i>
+                            </div>
+                            <div class="user-handle">
+                                @Tesla
+                            </div>
+                        </div>
+                        <div class="my-auto ms-auto">
+                            <button class="btn col-12 btn-primary override-bs">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+
+</body>
+</html>
