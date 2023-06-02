@@ -1,0 +1,17 @@
+import React from "react";
+const NavigationSidebar = () => {
+	return (
+	 <div className="list-group">
+	   <Link className="list-group-item">Home</Link>
+	   <Link className="list-group-item">Explore</Link>
+	   <Link className="list-group-item">Notifications</Link>
+	   <Link className="list-group-item">Messages</Link>
+	   <Link className="list-group-item">Bookmarks</Link>
+	   <Link className="list-group-item">Lists</Link>
+	   <Link className="list-group-item">Profile</Link>
+	   <Link className="list-group-item">More</Link>
+	 </div>
+	);
+
+};
+export default NavigationSidebar;
