@@ -1,0 +1,15 @@
+import React from "react";
+import TuitsList from "./tuits/index";
+import WhatsHappening from "./whats-happening";
+
+function HomeScreen() {
+ return (
+	<>
+	<h1>Home</h1>
+	<WhatsHappening/>
+	<TuitList/>
+	</>
+ 
+ );
+}
+export default HomeScreen;

@@ -1,0 +1,6 @@
+const HelloReduxExampleComponent = () => {
+ const message = useSelector((state) => state.hello.message);
+ return(
+   <h1>{message}</h1>
+ );
+};
