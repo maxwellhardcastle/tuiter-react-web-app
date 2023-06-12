@@ -2,7 +2,8 @@ import React from "react";
 import "./tuit.css";
 import "../../vendors/fontawesome/css/all.css";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {updateTuitThunk, deleteTuitThunk} from "../services/tuits-thunks";
+import { FaHeart } from "react-icons/fa";
 const TuitItem = (
  {
    tuit = {
@@ -22,7 +23,7 @@ const TuitItem = (
 ) => {
 	const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
-  dispatch(deleteTuit(id));
+  dispatch(deleteTuitThunk(id));
 }
 
  return(
@@ -35,9 +36,7 @@ const deleteTuitHandler = (id) => {
         <div className="col-11">
             <div class="wd-poster-name">{tuit.userName}</div>
             <div class="wd-poster-info">{tuit.handle} - {tuit.time}</div>
-			<a class="wd-button-link">
 			<i class="fa fa-times float-end wd-button-icon-grey" onClick={() => deleteTuitHandler(tuit._id)}></i>
-			</a>
             <div class="wd-float-done"></div>
             <div class="wd-post-text">{tuit.tuit}</div>
             <div class="wd-float-done"></div>
@@ -54,10 +53,21 @@ const deleteTuitHandler = (id) => {
                     <div class="wd-button-text-grey">{tuit.retuits}</div>
                 </a>
                 <a class="wd-button-link" href="#">
-					{ tuit.liked ? <><i class="fa fa-heart wd-button-icon-red"></i>
-                    <div class="wd-button-text-red">{tuit.likes}</div></> :
-					<><i class="fa fa-heart wd-button-icon-grey"></i>
-                    <div class="wd-button-text-grey">{tuit.likes}</div></> }
+					{ tuit.liked ? 
+					<><FaHeart color="red"
+					  className="text-danger"
+					  onClick={() =>
+						dispatch(updateTuitThunk({ ...tuit, likes: tuit.likes - 1, liked: false }))
+					  }
+					/>
+					<span className="ms-2">{tuit.likes}</span></> :
+					<><FaHeart color="white"
+					  className="text-danger"
+					  onClick={() =>
+						dispatch(updateTuitThunk({ ...tuit, likes: tuit.likes + 1, liked: true }))
+					  }
+					/>
+					<span className="ms-2">{tuit.likes}</span></> }
                 </a>
                 <a class="wd-button-link" href="#">
                     <i class="fa fa-upload wd-button-icon-grey"></i>
